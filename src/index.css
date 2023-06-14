@@ -1,0 +1,112 @@
+/* Default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color and font styles for the entire page */
+body {
+  font-family: "Gill Sans", sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Style for centering the container */
+
+
+/* Style the header section */
+header {
+  background-color: #771010;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the main sections */
+section {
+  padding: 40px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+section#home {
+  text-align: center;
+}
+
+section#about {
+  text-align: center;
+}
+
+section#services {
+  text-align: center;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* Style the contact form */
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Style the footer section */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
